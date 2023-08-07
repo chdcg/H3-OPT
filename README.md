@@ -26,7 +26,7 @@ We provide the template CDR-H3 database from SAbDab website,. These template str
 
 ## Usage
 
-### Selection module
+### Template module
 
 We provide a command line interface that effectively figure out the high confidence CDR-H3 loop by the CBM and graft the template loop onto models prediction by AlphaFold2 using the TGM.
 
