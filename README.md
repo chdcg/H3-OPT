@@ -115,3 +115,21 @@ optional arguments:
   --pred_csv PRED_CSV   filename of predicted cordinate files
 ```
 
+#### Confidence score
+
+You can get a confidence score of our prediction using following command lines.
+```
+usage: pred_confidence_score.py [-h] [--feature_dir FEATURE_DIR] [--model_dir MODEL_DIR]
+                  [--out_dir OUT_DIR] [--out_name OUT_NAME]
+                  [--pdbname PDBNAME]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --feature_dir FEATURE_DIR
+                        Path to feature files
+  --model_dir MODEL_DIR
+                        Path to model directory
+  --out_dir OUT_DIR     Path to output PDB directory
+  --out_name OUT_NAME   filename of predicted cordinate files
+  --pdbname PDBNAME     Pdbname of input PDB file
+```
